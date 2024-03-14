@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router.post('/postCode' , postHtmlCode)
-router.get('/getCode/:id' , getHtmlCode);
-
+router.get('/getCode/:endPoint' , getHtmlCode);
+ 
 module.exports = router;
 
